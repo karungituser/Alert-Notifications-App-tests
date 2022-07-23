@@ -1,0 +1,61 @@
+.notify-heading {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 26px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 9px;
+}
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+.description {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+}
+.icon {
+  height: 50px;
+  min-width: 30px;
+  margin-right: 15px;
+}
+.success-icon {
+  color: #2dca73;
+}
+.error-icon {
+  color: #ff0b37;
+}
+.warning-icon {
+  color: #ffb800;
+}
+.info-icon {
+  color: #0f81e0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .notify-heading {
+    font-size: 30px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}
